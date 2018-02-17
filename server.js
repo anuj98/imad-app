@@ -6,13 +6,13 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('article-one',function(req,res){
-    res.send('Article 1 requested');
+    res.send('Article one requested');
 });
 app.get('article-two',function(req,res){
-    res.send('Article-2 requested');
+    res.send('Article two requested');
 });
 app.get('article-three',function(req,res){
-    res.send('Article 3 requested');
+    res.send('Article three requested');
 });
 
 app.get('/', function (req, res) {
