@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/article-one',function(req,res){
-    res.send('Article one requested');
+    res.sendFile(path.join(_dirname,'ui','article-one.html'));
 });
 
 app.get('/article-two',function(req,res){
