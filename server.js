@@ -8,9 +8,11 @@ app.use(morgan('combined'));
 app.get('article-one',function(req,res){
     res.send('Article one requested');
 });
+
 app.get('article-two',function(req,res){
     res.send('Article two requested');
 });
+
 app.get('article-three',function(req,res){
     res.send('Article three requested');
 });
