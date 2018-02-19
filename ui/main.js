@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
 //image cicking functions
-var image = document.getElementById("img");
+var image = document.getElementById('img');
 
 var marginLeft = 0;
 function moveRight(){
