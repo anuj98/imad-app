@@ -5,11 +5,9 @@ var image = document.getElementById("img");
 
 var marginLeft = 0;
 function moveRight(){
-    marginRight  = marginRight+10;
-    image.style.marginRight = marginRight + "px";
+    marginLeft  = marginLeft + 10;
+    image.style.marginRight = marginLeft + 'px';
 }
 image.onClick = function(){
-    
-    var interval = setInterval(moveRight, 100);
-    //image.style.marginLeft = '200px';  
+    var interval = setInterval(moveRight, 100);  
 };
